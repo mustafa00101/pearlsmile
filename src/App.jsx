@@ -471,10 +471,10 @@ function App() {
         <img 
   src={
     selectedService === "general"
-      ? "public/services/general_dentestry.png"
+      ? "/services/general_dentestry.png"
       : selectedService === "cosmetic"
-      ? "public/services/cosmetic_dentestry.png"
-      : "public/services/dental-implants.png"}
+      ? "/services/cosmetic_dentestry.png"
+      : "/services/dental-implants.png"}
 
   alt="Dental treatment"
   className="service-tooth-image"
@@ -587,7 +587,7 @@ function App() {
 
     <div className="doctor-placeholder">
       <span><img
-            src="/src/assets/drimage.png"
+            src="/drimage.png"
             alt="Dr. Ayesha Zeb"
             className="doctor-placeholder-image"
           /></span>
