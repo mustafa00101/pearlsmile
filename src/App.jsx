@@ -471,11 +471,11 @@ function App() {
         <img 
   src={
     selectedService === "general"
-      ? "src/assets/general_dentestry.png"
+      ? "public/services/general_dentestry.png"
       : selectedService === "cosmetic"
-      ? "src/assets/cosmetic_dentestry.png"
-      : "src/assets/dental-implants.png"
-  }
+      ? "public/services/cosmetic_dentestry.png"
+      : "public/services/dental-implants.png"}
+
   alt="Dental treatment"
   className="service-tooth-image"
 />
